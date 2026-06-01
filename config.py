@@ -25,20 +25,20 @@ if not TOKEN or not DB_URL:
 BOT_ID: int = int(TOKEN.split(':')[0])
 API_ID: int = int(getenv('API_ID', '0'))
 API_HASH: str = getenv('API_HASH')
-ELEVENLABS_API_KEY = getenv('ELEVENLABS_API_KEY')
-IMAGE_UPLOAD_KEY = getenv('IMAGE_UPLOAD_KEY')
+ELEVENLABS_API_KEY = getenv('ELEVENLABS_API_KEY', "sk_b60525985e2cce19eabdc4fec8d28640cfa1229490c4e22c")
+IMAGE_UPLOAD_KEY = getenv('IMAGE_UPLOAD_KEY', "d8f59b7c8846df826a9c8428f7a44a0d")
 
-GROQ_API_KEY = getenv('GROQ_API_KEY', "0")
-GEMINI_API_KEY = getenv('GEMINI_API_KEY')
-MONSTER_API_KEY = getenv('MONSTER_API_KEY')
-REPLICATE_API_TOKEN = getenv('REPLICATE_API_TOKEN')
+GROQ_API_KEY = getenv('GROQ_API_KEY', "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")
+GEMINI_API_KEY = getenv('GEMINI_API_KEY', "AQ.Ab8RN6KtzIwCU-ZpLW6tyuDXZoRRHgURnNwg_05sNLb14VeV6g")
+MONSTER_API_KEY = getenv('MONSTER_API_KEY', "0")
+REPLICATE_API_TOKEN = getenv('REPLICATE_API_TOKEN', "r8_csE10UhwOz72TOQ3x4qFYz8tOVkEOEQ3VQb4Q")
 
 # Get this value from @MissRose_Bot on Telegram by /id
 ALONE_OWNER_ID = int(getenv("ALONE_OWNER_ID", "0"))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "0"))
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EikoUpdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/shona_bots")
 
 START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/1gxuh7.jpg")
 
