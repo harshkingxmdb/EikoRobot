@@ -98,17 +98,17 @@ BTN_ROWS = int(getenv('BTN_ROWS', '6'))
 
 
 # some media source
-PM_START_IMG = getenv('PM_START_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+PM_START_IMG = getenv('PM_START_IMG', "https://litter.catbox.moe/p6c5zt.jpg")
 
-HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://files.catbox.moe/1gxuh7.jpg")
-
-
-HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://files.catbox.moe/1gxuh7.jpg")
-
-START_IMG = getenv('START_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+HELP_CMD_IMG = getenv('HELP_CMD_IMG', "https://litter.catbox.moe/p6c5zt.jpg")
 
 
-FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://files.catbox.moe/1gxuh7.jpg")
+HELP_MODULE_IMG = getenv('HELP_MODULE_IMG', "https://litter.catbox.moe/p6c5zt.jpg")
+
+START_IMG = getenv('START_IMG', "https://litter.catbox.moe/p6c5zt.jpg")
+
+
+FORCE_JOIN_IMG = getenv('FORCE_JOIN_IMG', "https://litter.catbox.moe/p6c5zt.jpg")
 
 AF_START_STICKERS = [
   "CAACAgUAAxkBAAEBrV9nWukpft8gmtrZVMkbO4GKlZy0HQACWxUAAnHv2FZkjr7WjG3OjzYE",
