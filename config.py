@@ -60,11 +60,11 @@ BOT_USERNAME = getenv('BOT_USERNAME', '@oxnybot')
 BOT_NAME = getenv('BOT_NAME', 'Eiko')
 IS_WEB_SUP = getenv('IS_WEB_SUP', 'True').lower() == 'true'
 
-SUDO_USERS = [int(x) for x in getenv("SUDO_USERS", "8458947967").split() if x.isdigit()]
-SUPPORT_USERS = [int(x) for x in getenv("SUPPORT_USERS", "8458947967").split() if x.isdigit()]
-WHITELIST_USERS = [int(x) for x in getenv("WHITELIST_USERS", "8458947967").split() if x.isdigit()]
-OWNER_ID = int(getenv("OWNER_ID", "8458947967"))
-DEV_LIST = [int(x) for x in getenv("DEV_LIST", "8458947967").split() if x.isdigit()]
+SUDO_USERS = [int(x) for x in getenv("SUDO_USERS", "8213572855").split() if x.isdigit()]
+SUPPORT_USERS = [int(x) for x in getenv("SUPPORT_USERS", "8213572855").split() if x.isdigit()]
+WHITELIST_USERS = [int(x) for x in getenv("WHITELIST_USERS", "8213572855").split() if x.isdigit()]
+OWNER_ID = int(getenv("OWNER_ID", "8213572855"))
+DEV_LIST = [int(x) for x in getenv("DEV_LIST", "8213572855").split() if x.isdigit()]
 
 SPAM_USERS = {}
 
