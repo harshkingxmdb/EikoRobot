@@ -125,11 +125,11 @@ async def alive_handler(event):
     stats = await get_basic_stats()
     
     if not stats:
-        text = f"❂ **Alone is Alive**\n\n**Uptime:** `{readable_time(time.time() - START_TIME)}`"
+        text = f"❂ **Shona is Alive**\n\n**Uptime:** `{readable_time(time.time() - START_TIME)}`"
         buttons = None
     else:
         text = (
-            f"❂ **Alone is Online**\n"
+            f"❂ **Shona is Online**\n"
             f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
             f"**Uptime:** `{stats['bot_uptime']}`\n"
             f"**Time:** `{stats['ist_time']}`\n\n"
@@ -205,11 +205,11 @@ async def backs_to_alive(event):
     stats = await get_basic_stats()
     
     if not stats:
-        text = f"❂ **Alone is Alive**\n\n**Uptime:** `{readable_time(time.time() - START_TIME)}`"
+        text = f"❂ **shona is Alive**\n\n**Uptime:** `{readable_time(time.time() - START_TIME)}`"
         buttons = None
     else:
         text = (
-            f"❂ **Alone is Online**\n"
+            f"❂ **shona is Online**\n"
             f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
             f"**Uptime:** `{stats['bot_uptime']}`\n"
             f"**Time:** `{stats['ist_time']}`\n\n"
