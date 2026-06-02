@@ -25,7 +25,7 @@ __help__ = """
 This module provides access to multiple AI tools, including ChatGPT, Groq AI, Gemini, and image generation. You can ask questions, generate images, or get AI-assisted responses directly in your chat.
 
 *Commands:*  
-❂ `/AloneX <query>` - Use Makima AI (supports photos and stickers).  
+❂ `/ShonaX <query>` - Use Makima AI (supports photos and stickers).  
 ❂ `/gpt <query>` - Get a response from ChatGPT.  
 ❂ `/groq <query>` - Get a response from Groq AI.  
 ❂ `/draw <query>` - Generate an image from a text description.  
@@ -34,7 +34,7 @@ This module provides access to multiple AI tools, including ChatGPT, Groq AI, Ge
 ❂ `/google` or `/gemini <query>` - Get a response from Gemini AI.
 
 *Examples:*  
-`/AloneX Hey, what is x^x?`  
+`/ShonaX Hey, what is x^x?`  
 `/draw A cute anime girl`  
 `/imagine A cute anime girl`
 """
