@@ -67,7 +67,7 @@ async def handle_gpt(event):
         
         if not query or len(query) < 2:
             await event.reply(
-                "Hi, I am AloneX, your AI assistant!\n\nUsage: #gpt your question\nOr reply to a message with #gpt"
+                "Hi, I am ShonaX, your AI assistant!\n\nUsage: #gpt your question\nOr reply to a message with #gpt"
             )
             return
         
