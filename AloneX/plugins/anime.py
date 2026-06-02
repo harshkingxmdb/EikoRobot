@@ -26,7 +26,7 @@ This module provides anime-related information, including anime search, characte
 
 *Examples:*  
 `/anime attack on titan`  
-`/character AloneX`
+`/character ShonaX`
 """
 
 anime = Anime()
