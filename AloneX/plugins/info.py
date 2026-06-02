@@ -371,11 +371,7 @@ async def UserInfo(update, context):
     try:
         keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(f"📋 {full_name}", url=f"tg://user?id={user.id}")]])
     
-
-    
-            
-
-    try:
+try:
         await msg.edit_text(text=text, parse_mode=constants.ParseMode.HTML, reply_markup=keyboard)
     except BadRequest as e:
         if "Button_user_privacy_restricted" in str(e):
