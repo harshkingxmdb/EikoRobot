@@ -368,13 +368,31 @@ async def UserInfo(update, context):
     )
 
     keyboard = None
-try:
-    keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton(f"📋 {full_name}", url=f"tg://user?id={user.id}")]]
-    )
-except:
-    keyboard = None
-    
+    try:
+        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton(f"📋 {full_name}", url=f"tg://user?id={user.id}")]])
+    except:
+        pass
+
+    if user.photo:
+        photo_task = asyncio.create_task(get_photo_bytes(bot, user.photo.big_file_id))
+        photo_bytes = await photo_task
+        
+        if photo_bytes:
+            try:
+                await message.reply_photo(photo=photo_bytes, caption=text, 
+                                        parse_mode=constants.ParseMode.HTML, 
+                                        reply_markup=keyboard)
+                await msg.delete()
+                return
+            except BadRequest:
+                try:
+                    await message.reply_photo(photo=photo_bytes, caption=text, 
+                                            parse_mode=constants.ParseMode.HTML)
+                    await msg.delete()
+                    return
+                except:
+                    pass
+
     try:
         await msg.edit_text(text=text, parse_mode=constants.ParseMode.HTML, reply_markup=keyboard)
     except BadRequest as e:
@@ -435,4 +453,3 @@ async def _getTelegramID(update, context):
             text += f"\n📁 {media_type.capitalize()} ID: `{media_id}`"
 
     await message.reply_text(text=text, parse_mode=constants.ParseMode.MARKDOWN)
-                    
