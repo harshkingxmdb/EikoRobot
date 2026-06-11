@@ -5,10 +5,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pytgcalls.types import UpdatedGroupCallParticipant, GroupCallParticipant
 from pytgcalls import filters as fl
-from SONALI_MUSIC import app, userbot
-from SONALI_MUSIC.core.call import Istu
-from SONALI_MUSIC.utils.database import is_vc_logger, set_vc_logger, get_served_chats
-from SONALI_MUSIC.misc import SUDOERS
+from AloneX import app, userbot
+from AloneX.core.call import Istu
+from AloneX.utils.database import is_vc_logger, set_vc_logger, get_served_chats
+from AloneX.misc import SUDOERS
 from config import adminlist
 
 logger = logging.getLogger(__name__)
