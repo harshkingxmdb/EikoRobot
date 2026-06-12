@@ -56,7 +56,7 @@ else:
     LOGS_CHANNEL = None
 
 LOGGER_ID = int(getenv('LOGGER_ID', '0'))
-BOT_USERNAME = getenv('BOT_USERNAME', '@oxnybot')
+BOT_USERNAME = getenv('BOT_USERNAME', '@Advaya_Music_Bot')
 BOT_NAME = getenv('BOT_NAME', 'Eiko')
 IS_WEB_SUP = getenv('IS_WEB_SUP', 'True').lower() == 'true'
 
