@@ -69,7 +69,7 @@ async def sg(client: Client, message: Message):
     await loading.delete()
 
 # ======================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
+# ©️ 2025-26 All Rights Reserved by Shona Bots (kingxmdb) 😎
 
 # 🧑‍💻 Developer : t.me/kingxmdb
 # 🔗 Support Link : t.me/shona_support
