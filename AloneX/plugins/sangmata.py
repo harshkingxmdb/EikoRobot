@@ -34,10 +34,6 @@ async def sg(client: Client, message: Message):
     sangmata_bots = ["sangmata_bot", "sangmata_beta_bot"]
     target_bot = random.choice(sangmata_bots)
 
-    if 1 in assistants:
-    else:
-        return await loading.edit("**✘ ɴᴏ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ.**")
-
     try:
         sent = await ubot.send_message(target_bot, str(user.id))
         await sent.delete()
