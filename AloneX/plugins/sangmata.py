@@ -1,9 +1,9 @@
 # =======================================================
-# ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 🚀
+# This code fix by @shona_bots
 
 # This source code is under MIT License 📜 Unauthorized forking, importing, or using this code without giving proper credit will result in legal action ⚠️
 
-# 📩 DM for permission : @TheSigmaCoder
+# 📩 DM for permission : @kingxmdb
 # =======================================================
 
 import asyncio
@@ -11,8 +11,8 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.raw.functions.messages import DeleteHistory
-from AloneX import userbot as us, app
-from AloneX.core.userbot import assistants
+from AloneX import user as ubot
+from AloneX import pbot as app
 
 @app.on_message(filters.command("sg"))
 async def sg(client: Client, message: Message):
@@ -35,7 +35,6 @@ async def sg(client: Client, message: Message):
     target_bot = random.choice(sangmata_bots)
 
     if 1 in assistants:
-        ubot = us.one
     else:
         return await loading.edit("**✘ ɴᴏ ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ.**")
 
@@ -72,7 +71,7 @@ async def sg(client: Client, message: Message):
 # ======================================================
 # ©️ 2025-26 All Rights Reserved by Purvi Bots (Im-Notcoder) 😎
 
-# 🧑‍💻 Developer : t.me/TheSigmaCoder
-# 🔗 Source link : GitHub.com/Im-Notcoder/Sonali-MusicV2
-# 📢 Telegram channel : t.me/Purvi_Bots
+# 🧑‍💻 Developer : t.me/kingxmdb
+# 🔗 Support Link : t.me/shona_support
+# 📢 Telegram channel : t.me/shona_bots
 # =======================================================
