@@ -7,7 +7,6 @@ from pytgcalls.types import UpdatedGroupCallParticipant, GroupCallParticipant
 from pytgcalls import filters as fl
 from AloneX import pbot as app
 from AloneX import user as userbot
-from config import adminlist
 
 logger = logging.getLogger(__name__)
 
