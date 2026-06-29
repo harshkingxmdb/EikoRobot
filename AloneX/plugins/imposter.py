@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from pyrogram.enums import ChatMemberStatus
 
 from AloneX import pbot
-from AloneX.db.pretenderdb import (
+from AloneX.db.imposterdb import (
     impo_off,
     impo_on,
     check_pretender,
