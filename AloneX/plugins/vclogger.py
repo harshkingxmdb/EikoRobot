@@ -5,7 +5,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 from pytgcalls.types import UpdatedGroupCallParticipant, GroupCallParticipant
 from pytgcalls import filters as fl
-from AloneX import app, userbot
+from AloneX import pbot as app
+from AloneX import user as userbot
 from AloneX.core.call import Istu
 from AloneX.utils.database import is_vc_logger, set_vc_logger, get_served_chats
 from AloneX.misc import SUDOERS
